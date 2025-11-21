@@ -4691,3 +4691,32 @@ input, select, textarea {
 
 
 
+/* Custom backgrounds for each page */
+
+/* Home + Personal → pier.jpg */
+body.home #wrapper > .bg,
+body.personal #wrapper > .bg {
+    background-image:
+        url("../../images/overlay.png"),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url("../../images/pier.jpg");
+}
+
+/* CV + Publications + Research → aoss.jpg */
+body.cv #wrapper > .bg,
+body.publications #wrapper > .bg,
+body.research #wrapper > .bg {
+    background-image:
+        url("../../images/overlay.png"),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url("../../images/aoss.jpg");
+}
+
+/* Contact → plance.jpg */
+body.contact #wrapper > .bg {
+    background-image:
+        url("../../images/overlay.png"),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url("../../images/plance.jpg");
+}
+
